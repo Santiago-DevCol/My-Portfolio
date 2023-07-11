@@ -1256,3 +1256,21 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.grid-item {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.grid-item p{
+  border-bottom: 2px solid #18d26e;  
+}
